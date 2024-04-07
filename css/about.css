@@ -1,0 +1,140 @@
+.subheader {
+	margin-top: 171px;
+}
+
+.aboutus-suptitle {
+	max-width: 800px;
+	margin: 0 auto;
+    padding-bottom: 100px;
+
+}
+
+
+/* -------------------------------------------------------
+*
+*           WHY WE
+*                  
+-------------------------------------------------------- */
+
+
+#whywe {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/bg-whywe.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: flex-end;
+}
+
+.wrapper-whywe {
+	width: 60%;
+	padding: 50px;
+	box-sizing: border-box;
+	background-color: rgba(6, 42, 77, 0.8);
+	color: var(--color-white);
+}
+
+
+.wrapper-whywe h2 {
+	color: var(--color-white);
+}
+
+.whywe-subtitle {
+	max-width: 715px;
+}
+
+.wrapper-edge-whywe {
+	margin-top: 36px;
+	justify-content: flex-start;
+}
+
+.single-edge-whywe {
+	padding-right: 82px;
+	box-sizing: border-box;
+}
+
+
+.single-edge-whywe p {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: 40px;
+	color: var(--color-green);
+}
+
+.single-edge-whywe h3 {
+	color: var(--color-white);
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+}
+
+
+/* -------------------------------------------------------
+*
+*           FAQ
+*                  
+-------------------------------------------------------- */
+
+
+
+.faq-block-content {
+    width: 70%;
+    padding: 100px 0;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-accordion {
+	width: 100%;
+	
+}
+
+.faq-item {
+	margin-bottom: 20px;
+}
+
+.wrapper-accordion h3 {
+	color: var(--color-white);
+	margin-bottom: 0;
+	padding: 30px;
+	cursor: pointer;
+	transition: all 0.5s;
+	font-size: 20px;
+	text-transform: capitalize;
+	background-color: rgba(18, 52, 86, 0.8);
+	transition: all 0.5s;
+}
+
+.wrapper-accordion h3:hover {
+	background-color: var(--color-blue-whale);
+}
+
+.wrapper-accordion h3.opened {
+    background-color: var(--color-green-dark);
+}
+
+.content-accordion {
+	color: var(--color-white);
+	display: none;
+	padding: 30px;
+	padding-top: 0;
+	box-sizing: border-box;
+	background-color: var(--color-green-dark);
+}
+.content-accordion.active {
+    display: block;
+}
+
+.content-accordion p {
+	margin-bottom: 5px;
+}
+
+.faq-btn {
+	margin-top: 55px;
+}

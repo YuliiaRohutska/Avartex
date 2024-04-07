@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Contact</title>
+
+    <meta
+      name="description" content="Get top-quality service and expert solutions for your home. Contact us for a consultation today!">
+    <meta
+      name="keywords" content="window installation, door installation, security systems, Avartex, professional installers, quality service, expert solutions, installation consultation">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </head>
+
+  <body>
+    
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+
+    <div class="back-to-top" onclick="scrollToTop()">
+      <span class="back-to-top-text">Up</span>
+    </div>
+
+    <header class="bg-fixed">
+      <div class="wrapper-header container flex">
+          <a id="logo" href="index.html">
+              <img src="images/logo.svg" alt="logo">
+          </a>
+  
+          <nav id="home__navigation" class="menu">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+  
+          <div>
+              <ul class="social-links flex">
+                  <li>
+                      <a target="_blank" href="https://m.facebook.com/Lviv.Polytechnik">
+                          <img src="images/Facebook.svg" alt="facebook">
+                      </a>
+                  </li>
+                  <li>
+                      <a target="_blank" href="https://www.instagram.com/lpnu_official?igsh=b3Y1b3g3bnNocGMz">
+                          <img src="images/Instagram.svg" alt="instagram">
+                      </a>
+                  </li>
+                  <li>
+                      <a target="_blank" href="https://youtube.com/@user-ff1tg1di7o?si=rZ0-pAt_ydjBCVeL">
+                          <img src="images/Youtube.svg" alt="youtube">
+                      </a>
+                  </li>
+              </ul>
+          </div>
+  
+          <div class="burger-menu">
+              <div id="openmenu" class="burger-icon" onclick="toggleMenu()">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+              </div>
+              <div id="closemenu" class="burger-icon" onclick="toggleMenu()"><img class="close" src="images/Symbol.svg" alt="symbol"></div>
+              <nav class="menu">
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul>
+              </nav>
+          </div>
+  
+      </div>
+  </header>
+  
+   <main>
+    <section class="subheader align-center">
+      <h2>Contact Us</h2>
+      <p class="suptitle contactus-suptitle">Address & Contact Form</p>
+    </section>
+
+    <div class="wrapper-contact-form container flex">
+      <div class="wrapper-contact">
+        <div class="single-address">
+          <h3>USA Office</h3>
+          <p>
+            <a target="_blank" href="https://www.google.com/maps?q=1600+Amphitheatre+Parkway,+Mountain+View,+CA">1600 Amphitheatre Pkwy, Mountain View, CA 94043</a>
+          </p>
+          <p><a target="_blank" href="tel:+18004784251">+1 (800) 478-42-51</a></p>
+          <p><a target="_blank" href="tel:+18004742382">+1 (800) 474-23-82</a></p>
+          <a target="_blank" href="mailto:info@usaavartex.com">info@usaavartex.com</a>
+        </div>
+
+        <div class="single-address">
+          <h3>Germany Office</h3>
+          <p>
+            <a target="_blank" href="https://www.google.com/maps?q=Brandenburg+Gate,+Pariser+Platz,+10117+Berlin,+Germany">Brandenburg Gate, Pariser Platz, 10117 Berlin, Germany</a>
+          </p>
+          <p><a target="_blank" href="tel:+18004782415">+1 (800) 478-24-15</a></p>
+          <p><a target="_blank" href="tel:+18004743228">+1 (800) 474-32-28</a></p>
+          <a target="_blank" href="mailto:info@geravartex.com">info@geravartex.com</a>
+        </div>
+      </div>
+
+      
+
+      <div class="wrapper-form">
+        <form id="contactForm" method="POST" action="#">
+            <div class="wrapper-input">
+              <input type="text" name="name" placeholder="Name">
+              <input type="text" name="lastname" placeholder="Last Name">
+            </div>
+
+            <div class="wrapper-input">
+              <input type="text" name="phone" placeholder="Phone">
+              <input type="text" name="email" placeholder="Email">
+            </div>
+
+            <textarea name="message" placeholder="Message"></textarea>
+
+            <button id="send" type="submit">Submit Message</button>
+            <p class="res-send"></p>
+            <p class="error-message"></p>
+        </form>
+      </div>
+    </div>  
+    </main>
+
+    <footer>
+      <p>Copyright &copy; All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>

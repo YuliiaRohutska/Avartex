@@ -1,0 +1,158 @@
+/* -------------------------------------------------------
+*
+*           CONTACT
+*                  
+-------------------------------------------------------- */
+
+.subheader .contactus-suptitle {
+    margin-bottom: 64px;
+}
+
+.wrapper-contact {
+    width: 30%;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+.wrapper-form {
+    width: 70%;
+    padding-bottom: 100px;
+}
+
+.single-address {
+    margin-bottom: 50px;
+}
+
+.single-address p {
+    margin-bottom: 10px;
+}
+
+.single-address a {
+    color: var(--color-content);
+    text-decoration: underline;
+}
+
+.single-address a:hover {
+    color: var(--color-green-dark);
+}
+
+.wrapper-input input {
+    display: block;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: var(--color-light-blue);
+    color: var(--color-dark-blue);
+    transition: all 0.5s;
+}
+
+.wrapper-input input:focus,
+textarea:focus {
+    background-color: var(--color-light-blue);
+}
+
+textarea {
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all 0.5s;
+    margin-bottom: 45px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--color-light-blue);
+    padding: 25px;
+    height: 200px;
+}
+
+.wrapper-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#error-message {
+    color: red;
+}
+
+.res-send {
+	font-family: 'Oswald', sans-serif;
+	color: var(--color-green-dark);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.error-message {
+	font-family: 'Oswald', sans-serif;
+	color: red;
+	margin-top: 10px;
+    font-weight: bold;
+}
+
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: var(--color-dark-blue);
+	font-size: 16px;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: var(--color-dark-blue);
+	font-size: 16px;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: var(--color-dark-blue);
+	font-size: 16px;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: var(--color-dark-blue);
+	font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: var(--color-dark-blue);
+	font-size: 16px;
+}
+
+.wrapper-form button {
+    font-size: 16px;
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.5s;
+	padding: 17px 35px;
+	color: var(--color-white);
+	background-color: var(--color-green);
+	border-radius: 3px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+
+.wrapper-form button:hover {
+	background-color: var(--color-green-dark);
+}

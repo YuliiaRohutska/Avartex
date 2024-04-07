@@ -1,0 +1,308 @@
+@media all and (max-width:1000px) {
+    
+    .menu {
+        display: none;
+    }
+
+    .wrapper-header {
+	 padding: 0 15px;
+	}
+
+	#closemenu {
+		display: none;
+		z-index: 1000;
+		width: 25px;
+		height: 3px;
+		margin: 5px 0;
+		position: absolute; 
+		top: 10px;
+		right: 15px;
+	}
+	
+	#closemenu .close {
+		position: absolute;
+		top: 18px;
+		right: 0;
+		color: #333;
+		font-size: 24px;
+		cursor: pointer;
+	}
+
+    #openmenu {
+        display: inline-block;
+    }	
+
+    .burger-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .burger-icon {
+		cursor: pointer;
+		display: none;
+	}
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: var(--color-white);
+        margin: 5px 0;
+    }
+
+    .menu.active {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 70%;
+        background-color: var(--color-dark-blue);
+        padding: 100px 20px;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
+
+    .menu.active ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+	.aboutus-img,
+	.faq-img {
+		display: none;
+	}
+
+	.about-content {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.aboutus-suptitle {
+		max-width: 100%;
+		margin-bottom: 0;
+		padding-bottom: 80px;
+	}
+
+	.single-edge {
+		width: 50%;
+	}
+
+	.single-edge:last-child {
+		padding-right: 0;
+		padding-left: 40px;
+	}
+
+	.ptb {
+		padding-top: 100px;
+		padding-bottom: 30px;
+	}
+
+	#services {
+		padding: 0px 15px;
+	}
+
+	#services .suptitle {
+		margin-top: 78px;
+	}
+
+	.faq-block-content {
+		width: 100%;
+		padding: 0 15px 50px 15px;
+		align-items: start;
+	}
+
+
+	.single-service,
+	.single-project {
+		width: calc(50% - 20px);
+	}
+
+	.own-btn {
+		margin-bottom: 75px;
+	}
+
+	.wrapper-whywe,
+	.wrapper-form {
+		width: 100%;
+		padding-bottom: 0;
+	}
+
+	.wrapper-whywe h3 {
+		padding-bottom: 35px;
+	}
+
+	.wrapper-faq h2 {
+		display: flex;
+		flex-direction: row;
+		align-self: start;
+	}
+
+	.faq-block-content {
+		margin-top: 80px;
+		width: 100%;
+		padding: 0 15px 15px 15px;
+	}
+
+	.faq-btn {
+		margin-bottom: 55px;
+	}
+
+	.project-item-list {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	#contactForm {
+		padding: 15px;
+	}
+
+	.wrapper-contact {
+    	width: 100%;
+    	padding-right: 0;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+	}
+
+	.wrapper-contact-form {
+    	padding-bottom: 80px;
+	}
+
+	.single-address {
+    	width: 50%;
+    	padding: 20px;
+    	box-sizing: border-box;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	textarea {
+		margin-bottom: 25px;
+	}
+
+}
+
+@media all and (max-width:500px) {
+
+	h1 {
+		font-size: 45px;
+		margin-bottom: 30px;
+	}
+
+	.wrapper-header-img {
+		max-height: 693px;
+	}
+
+	.about-content{
+		padding: 0 15px;
+	}
+
+	.ptb {
+		padding-bottom: 0;
+	}
+
+	.about-content p:last-child {
+		margin-bottom: 45px;
+	}
+
+	.back-to-top {
+		right: 15px;
+	}
+
+	.single-edge {
+		width: 100%;
+		padding: 15px;
+	}
+
+	.single-edge:first-child {
+		padding-left: 15px;
+	}
+
+	.single-edge:last-child {
+		padding-left: 15px;
+	}
+
+
+
+	#services {
+		padding: 0 6px;
+	}
+
+	#services .suptitle {
+		margin-top: 78px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.single-service,
+	.single-project {
+		width: calc(100% - 20px);
+	}
+	
+	.subheader h2 {
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 120%;
+		text-transform: capitalize;
+		
+	}
+
+	.wrapper-project-list {
+		margin-bottom: 30px;
+	}
+
+	.project-list {
+		padding: 0 50px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		
+	}
+
+	.project-list li {
+		margin-bottom: 0;
+	}
+
+	
+	.wrapper-input input {
+		width: 100%;
+	}
+
+	.single-address {
+		width: 100%;
+		text-align: center;
+	}
+
+	.single-address {
+		margin-bottom: 20px;
+	}
+
+
+	textarea::placeholder {
+        color: transparent;
+    }
+
+	.own__btn {
+		margin-bottom: 55px;
+	}
+
+	
+}

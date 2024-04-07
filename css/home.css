@@ -1,0 +1,179 @@
+/* -------------------------------------------------------
+*
+*           BANER CONTENT
+*                  
+-------------------------------------------------------- */
+
+
+.wrapper-baner-img {
+	width: 100%;
+	height: 800px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('../images/bg-header.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center;
+}
+
+/* -------------------------------------------------------
+*
+*           ABOUT US
+*                  
+-------------------------------------------------------- */
+
+.wrapper-aboutus {
+    display: flex;
+    align-items: center;
+}
+
+.aboutus-img {
+	width: 40%;
+	position: relative;
+}
+
+.aboutus-img img {
+	width: 100%;
+	
+}
+
+.about-content {
+	width: 60%;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+
+.about-content p {
+	margin-bottom: 20px;
+}
+
+.experiense {
+	background-color: var(--color-green);
+	padding: 30px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: var(--color-white);
+	box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
+}
+
+.experiense .counter {
+	font-size: 30px;
+}
+
+.experiense p {
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 2px;
+}
+
+/* -------------------------------------------------------
+*
+*           EDGE
+*                  
+-------------------------------------------------------- */
+
+
+.wrapper-edge {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+	
+}
+
+.single-edge {
+    width: 33.33%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+
+.single-edge:first-child {
+	padding-left: 40px;
+}
+
+.single-edge:last-child {
+	padding-right: 0;
+}
+
+.single-edge span {
+	display: block;
+	font-size: 120px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: var(--color-green);
+	opacity: 0.2;
+}
+
+.single-edge h3 {
+	max-width: 293px;
+	margin-bottom: 10px;
+	margin-top: -100px;
+	margin-left: 70px;
+}
+
+.single-edge p {
+	max-width: 293px;
+	margin-left: 70px;
+}
+
+
+
+/* -------------------------------------------------------
+*
+*           SERVICES
+*                  
+-------------------------------------------------------- */
+
+
+#services {
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.single-service {
+	width: calc(25% - 20px);
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
+}
+
+.single-service img {
+	width: 100%;
+	height: 100%;
+	transform: scale(1, 1);
+	transition: all 1s;
+}
+
+.single-service:hover img {
+	transform: scale(1.2, 1.2);
+}
+
+.service-content {
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+
+.service-content h3 {
+	color: var(--color-white);
+	font-size: 30px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	margin-bottom: 0px;
+}
+
+.own-btn {
+    margin-top: 55px;
+}
+
